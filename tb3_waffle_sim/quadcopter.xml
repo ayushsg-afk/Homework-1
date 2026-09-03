@@ -1,0 +1,44 @@
+<mujoco model="quadcopter">
+  <compiler angle="degree" coordinate="local"/>
+  <option gravity="0 0 -9.81" timestep="0.005" iterations="50"/>
+
+  <worldbody>
+    <light pos="0 0 5" dir="0 0 -1"/>
+    <geom name="floor" type="plane" size="5 5 0.1" rgba="0.8 0.8 0.8 1"/>
+
+    <!-- 6-DOF Quadcopter Root Body -->
+    <body name="base_link" pos="0 0 0.5">
+      <freejoint name="root"/>
+
+      <!-- Central Body Frame Site for Visualization -->
+      <site name="body_frame_site" pos="0 0 0" size="0.01"/>
+
+      <!-- Central Drone Hub -->
+      <geom name="hub" type="sphere" size="0.05" mass="0.4" rgba="0.2 0.2 0.2 1"/>
+
+      <!-- Arm 1 (Front Right) -->
+      <body name="arm1" pos="0.1 0.1 0">
+        <geom type="capsule" fromto="0 0 0 -0.1 -0.1 0" size="0.01" mass="0.05" rgba="0.4 0.4 0.4 1"/>
+        <geom type="cylinder" size="0.04 0.005" pos="0 0 0.01" mass="0.02" rgba="0.9 0.1 0.1 0.8"/>
+      </body>
+
+      <!-- Arm 2 (Front Left) -->
+      <body name="arm2" pos="-0.1 0.1 0">
+        <geom type="capsule" fromto="0 0 0 0.1 -0.1 0" size="0.01" mass="0.05" rgba="0.4 0.4 0.4 1"/>
+        <geom type="cylinder" size="0.04 0.005" pos="0 0 0.01" mass="0.02" rgba="0.9 0.1 0.1 0.8"/>
+      </body>
+
+      <!-- Arm 3 (Rear Left) -->
+      <body name="arm3" pos="-0.1 -0.1 0">
+        <geom type="capsule" fromto="0 0 0 0.1 0.1 0" size="0.01" mass="0.05" rgba="0.4 0.4 0.4 1"/>
+        <geom type="cylinder" size="0.04 0.005" pos="0 0 0.01" mass="0.02" rgba="0.1 0.1 0.9 0.8"/>
+      </body>
+
+      <!-- Arm 4 (Rear Right) -->
+      <body name="arm4" pos="0.1 -0.1 0">
+        <geom type="capsule" fromto="0 0 0 -0.1 0.1 0" size="0.01" mass="0.05" rgba="0.4 0.4 0.4 1"/>
+        <geom type="cylinder" size="0.04 0.005" pos="0 0 0.01" mass="0.02" rgba="0.1 0.1 0.9 0.8"/>
+      </body>
+    </body>
+  </worldbody>
+</mujoco>
