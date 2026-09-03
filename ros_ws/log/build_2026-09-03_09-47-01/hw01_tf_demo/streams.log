@@ -1,0 +1,37 @@
+[0.328s] Invoking command in '/home/ayu/ros_ws/src/hw01_tf_demo': PYTHONPATH=/home/ayu/ros_ws/build/hw01_tf_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayu/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw01_tf_demo build --build-base /home/ayu/ros_ws/build/hw01_tf_demo/build install --record /home/ayu/ros_ws/build/hw01_tf_demo/install.log --install-scripts $base/lib/hw01_tf_demo --single-version-externally-managed install_data
+[0.457s] running egg_info
+[0.457s] creating ../../build/hw01_tf_demo/hw01_tf_demo.egg-info
+[0.457s] writing ../../build/hw01_tf_demo/hw01_tf_demo.egg-info/PKG-INFO
+[0.458s] writing dependency_links to ../../build/hw01_tf_demo/hw01_tf_demo.egg-info/dependency_links.txt
+[0.458s] writing entry points to ../../build/hw01_tf_demo/hw01_tf_demo.egg-info/entry_points.txt
+[0.458s] writing requirements to ../../build/hw01_tf_demo/hw01_tf_demo.egg-info/requires.txt
+[0.458s] writing top-level names to ../../build/hw01_tf_demo/hw01_tf_demo.egg-info/top_level.txt
+[0.458s] writing manifest file '../../build/hw01_tf_demo/hw01_tf_demo.egg-info/SOURCES.txt'
+[0.459s] reading manifest file '../../build/hw01_tf_demo/hw01_tf_demo.egg-info/SOURCES.txt'
+[0.459s] writing manifest file '../../build/hw01_tf_demo/hw01_tf_demo.egg-info/SOURCES.txt'
+[0.459s] running build
+[0.459s] running build_py
+[0.459s] creating /home/ayu/ros_ws/build/hw01_tf_demo/build
+[0.459s] creating /home/ayu/ros_ws/build/hw01_tf_demo/build/lib
+[0.459s] creating /home/ayu/ros_ws/build/hw01_tf_demo/build/lib/hw01_tf_demo
+[0.459s] copying hw01_tf_demo/tf_broadcaster_node.py -> /home/ayu/ros_ws/build/hw01_tf_demo/build/lib/hw01_tf_demo
+[0.459s] copying hw01_tf_demo/__init__.py -> /home/ayu/ros_ws/build/hw01_tf_demo/build/lib/hw01_tf_demo
+[0.459s] running install
+[0.459s] running install_lib
+[0.460s] creating /home/ayu/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages/hw01_tf_demo
+[0.460s] copying /home/ayu/ros_ws/build/hw01_tf_demo/build/lib/hw01_tf_demo/tf_broadcaster_node.py -> /home/ayu/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages/hw01_tf_demo
+[0.460s] copying /home/ayu/ros_ws/build/hw01_tf_demo/build/lib/hw01_tf_demo/__init__.py -> /home/ayu/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages/hw01_tf_demo
+[0.460s] byte-compiling /home/ayu/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages/hw01_tf_demo/tf_broadcaster_node.py to tf_broadcaster_node.cpython-310.pyc
+[0.461s] byte-compiling /home/ayu/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages/hw01_tf_demo/__init__.py to __init__.cpython-310.pyc
+[0.461s] running install_data
+[0.461s] creating /home/ayu/ros_ws/install/hw01_tf_demo/share/ament_index
+[0.461s] creating /home/ayu/ros_ws/install/hw01_tf_demo/share/ament_index/resource_index
+[0.461s] creating /home/ayu/ros_ws/install/hw01_tf_demo/share/ament_index/resource_index/packages
+[0.461s] copying resource/hw01_tf_demo -> /home/ayu/ros_ws/install/hw01_tf_demo/share/ament_index/resource_index/packages
+[0.461s] copying package.xml -> /home/ayu/ros_ws/install/hw01_tf_demo/share/hw01_tf_demo
+[0.461s] running install_egg_info
+[0.462s] Copying ../../build/hw01_tf_demo/hw01_tf_demo.egg-info to /home/ayu/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages/hw01_tf_demo-0.1.0-py3.10.egg-info
+[0.462s] running install_scripts
+[0.474s] Installing tf_broadcaster_node script to /home/ayu/ros_ws/install/hw01_tf_demo/lib/hw01_tf_demo
+[0.475s] writing list of installed files to '/home/ayu/ros_ws/build/hw01_tf_demo/install.log'
+[0.491s] Invoked command in '/home/ayu/ros_ws/src/hw01_tf_demo' returned '0': PYTHONPATH=/home/ayu/ros_ws/build/hw01_tf_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayu/ros_ws/install/hw01_tf_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw01_tf_demo build --build-base /home/ayu/ros_ws/build/hw01_tf_demo/build install --record /home/ayu/ros_ws/build/hw01_tf_demo/install.log --install-scripts $base/lib/hw01_tf_demo --single-version-externally-managed install_data
